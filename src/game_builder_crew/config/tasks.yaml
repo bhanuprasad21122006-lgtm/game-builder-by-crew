@@ -1,0 +1,12 @@
+# Tasks configuration
+design_game:
+  description: Create game idea and mechanics from this request {game_request}
+  expected_output: Game concept explanation
+
+develop_game:
+  description: Write python pygame code for the requested game
+  expected_output: Python game script
+
+review_game:
+  description: Review the code for bugs, missing imports, and non-existent sound/image assets. Modify the code to use drawn shapes/colors instead of external image files.
+  expected_output: A single unbroken block of Python code wrapped in ```python ... ``` markdown. Do NOT include multiple files. Ensure game runs without external assets.
